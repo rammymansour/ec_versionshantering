@@ -1,0 +1,52 @@
+Jag använde git bash och github för att utföra arbetet
+
+Jag skapade en git repository på github som kallade den för ec_versionshantering 
+Skapade en mapp som heter git på min dator som innehåller filer
+__main__.py 
+questions.txt
+report.txt
+Sen skrev jag terminalen
+git init 
+git add __main__.py
+git commit -m “verionshanetring”
+git remote add origin https://github.com/rammymansour/ec_versionshantering
+git push -u origin master 
+
+Jag kom på att jag glömde skapa txt filerna därför gjorde jag det i efterhand men då behöver man inte säga till git till vilken repository den ska skicka då den vet redan annars är det nästa samma commando som vi använde innan och commitade de ”added txt files”
+
+
+Sen skapade jag en ny branch important-changes 
+Git checkout -b ” important-changes”
+Jag ändrade I min main via nano
+git add __main__.py
+git commit -m ”change the range”
+git push 
+
+Efter de gjorde jag en pull-request via github websida och mergde de.
+
+
+Jag tog Jonnys projekt för att genomföra den andra delen
+
+Skapade fork 
+
+Sen clonade jag den så jag kan få den och andra lite i coden 
+Git clone  __(url)__ 
+Skapade en ny branch 
+Ändrade loopen i hans code 
+git add 
+git commit -m ”changed loop to 100”
+git push 
+
+Jag skapade en pull request som Jonny godkände sedan.
+
+
+•	Vad är fördelen med att använda sig av pull requests när man arbetar i ett team av systemutvecklare? 
+Så de kan granska varandras code och säkerställa att den inte kommer förstöra något. 
+
+•	Varför är det viktigt att använda sig av versionshantering? Vad var fördelarna i förhållande till inlämningsuppgiften? Vad är fördelarna med versionshantering och Git mer generellt sett?
+Först och främst tycker jag att det största fördelen är att flera utvecklare kan arbeta med samma projekt samtidigt och ha tillgång till den från vilken datorn som helst.
+I våran fall så fick min klasskamrat tillgång till min code, och även ändra i den, men innan något blev ändrat i min code så fick jag se ändringarna och godkänna de.
+Jag tycker även att versionshantering är ett slags dokumentation 
+Att kunna gå tillbaka i tiden, och kolla eventuella fel som kunde leda till att programmet kraschar, och kunna fixa de utan att behöva skriva om coden, är ett stort plus.
+
+
