@@ -1,0 +1,39 @@
+1. Vad menas med versionshantering?
+  Ett program som tillåter oss att spara våra projekt i, tillåter arbete med samma projekt från olika datorer, att hålla reda på uppdateringar i projektet, flera människor kan jobba med samma projekt. 
+  Det gör enklare att ta reda på vilka filer har ändrats och återgå till äldre version om det behövs.
+
+2. Vad menas med en “merge”?
+  När man slår ihop grenar/brancher kallas för merge. 
+
+3. Om du vill merga ihop två brancher från terminalen, hur gör du då?
+	git checkout __1__ ( stå I branchen dit du vill merga )
+	git merge __2__ ( commandot mergar ändringar från 2 till branch 1)
+	
+4. Nämn ett alternativ till Git.
+  SVN (Subversion)
+  Helix Core
+  CVS
+  Microsoft Team Foundation Server
+
+5. Är Git ett verktyg som erbjuds av Github, eller kan man använda Git på andra ställen?
+  Git går att använda på flera ställen.
+
+6. Vad menas med en “merge conflict” och när kan det uppstå?
+  När flera utvecklare ändrar i samma rad
+  När man merger ihåp branches som har commits i sig som krockar med varandra.
+
+7. Om du vill se en lista med tidigare ändringar / commits i ett Git repo via terminalen, vad skriver du?
+  git log
+
+8. När du skriver “git init” i en mapp, på vilket sätt ändras då mappen?
+  Skapar en ny git repository 
+  Git init kommer att installera git cnfiguration till .git sökvägen där du befinner dig.
+
+9. Varför vill man dela ibland upp sina ändringar i separata “brancher”?
+  För att minska risken att förstöra programmet (master brancher)
+  Tillåter att arbeta med olika saker samtidigt.
+  Enklare att se ändringar 
+
+10. Nämn ett Git command som inte gör några förändringar på remote servern (Github är tex en remote server), Nämn även ett Git command som gör förändringar på remote servern.
+  Git status 
+  Git push 
